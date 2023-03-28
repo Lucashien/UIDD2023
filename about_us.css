@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "Source Han Sans SC Regular";
+    src: url(./fonts/NotoSansTC-Regular.otf);
+}
+
+@font-face {
+    font-family: "Source Han Sans SC Thin";
+    src: url(./fonts/NotoSansTC-Thin.otf);
+}
+
+@font-face {
+    font-family: "Source Han Sans SC Light";
+    src: url(./fonts/NotoSansTC-Light.otf);
+}
+
+html {
+    background-color: black;
+}
+
+header img {
+    position: absolute;
+    top: 2vw;
+    left: 50vw;
+    transform: translateX(-50%);
+    height: 8vw;
+    width: 12vw;
+}
+
+ul {
+    /* width: 40vw; */
+    height: 5vw;
+    position: absolute;
+    top: 12vw;
+    /* top: 15px; */
+    left: 50%;
+    transform: translateX(-60%);
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    margin-left: 3em;
+}
+
+ul a {
+    text-decoration: none;
+    color: aliceblue;
+    /* margin-left: 3em;  */
+}
+
+ul a span {
+    font-family: "Source Han Sans SC Light", sans-serif;
+    font-size: 1.5vw;
+}
+
+#首頁::after, #ABOUTUS::after, #資源區::after, #PTT::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 3vw;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-top: 2px;
+}
+
+#ABOUTUS::after {
+    height: 2px;
+    width: 7vw;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+#資源區::after {
+    height: 2px;
+    width: 4.5vw;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+#PTT::after {
+    height: 2px;
+    width: 2.7vw;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+#ABOUTUS:hover::after, #資源區:hover::after, #PTT:hover::after {
+    transform: scaleX(1);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#cover {
+    position: absolute;
+    top: 14vw;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 61vw;
+    width: 98.5vw;
+    z-index: -2;
+}
+
+section span {
+    position: absolute;
+    top: 74vw;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Source Han Sans SC Thin", sans-serif;
+    color: aliceblue;
+    font-size: 4vw;
+}
+
+#line {
+    position: absolute;
+    top: 79vw;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1vw;
+    width: 7vw;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 79vw;
+    /* height: 285vh; */
+    height: 135vw;
+}
+
+
+
+main img {
+    width: 45vw;
+    margin-top: 10vh;
+}
+
+
+
+#footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 7vw;
+    width: 98.7vw;
+    z-index: -2;
+}
