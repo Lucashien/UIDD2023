@@ -104,6 +104,11 @@ img {
     z-index: -2;
 }
 
+#cover img{
+    width: 100%;
+    height: auto !important;
+}
+
 section span {
     position: absolute;
     top: 74vw;
