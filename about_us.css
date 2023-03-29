@@ -36,18 +36,6 @@ body {
     height: 6.4vh;
 }
 
-.container1 {
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
-.container1 div {
-    font-family: NotoSansCJKtc-DemiLight;
-    /* font-size: 24px; */
-    font-size: 1.3vw;
-}
-
 .text {
     color: white;
     text-align: center;
@@ -71,4 +59,73 @@ body {
 .about {
     font-family: NotoSansCJKtc-Thin;
     font-size: 1.05vw;
+}
+
+
+/*--*/
+
+nav{
+    height:2vw;
+}
+
+ul {
+    /* width: 40vw; */
+    height: 5vw;
+    position: absolute;
+    top: 12vw;
+    /* top: 15px; */
+    left: 50%;
+    transform: translateX(-60%);
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    margin-left: 3em;
+}
+
+ul a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul a span {
+    font-family: "Source Han Sans SC Light", sans-serif;
+    font-size: 1.5vw;
+}
+
+#首頁::after, #ABOUTUS::after, #資源區::after, #PTT::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 7.5vw;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-top: 2px;
+}
+
+#首頁::after {
+    height: 2px;
+    width: 3vw;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+#資源區::after {
+    height: 2px;
+    width: 4.5vw;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+#PTT::after {
+    height: 2px;
+    width: 2.7vw;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+#首頁:hover::after, #資源區:hover::after, #PTT:hover::after {
+    transform: scaleX(1);
 }
