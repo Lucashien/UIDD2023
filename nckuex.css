@@ -104,7 +104,7 @@ img {
     z-index: -2;
 }
 
-#cover img{
+#cover img {
     width: 100%;
     height: auto !important;
 }
@@ -139,14 +139,10 @@ main {
     height: 135vw;
 }
 
-
-
 main img {
     width: 45vw;
     margin-top: 10vh;
 }
-
-
 
 #footer {
     position: absolute;
@@ -155,4 +151,64 @@ main img {
     height: 7vw;
     width: 98.7vw;
     z-index: -2;
+}
+
+#han {
+    transition-duration: 0.1s;
+}
+
+#han:hover {
+    content: url(./img/gif/element4_gif.gif);
+    transform: scale(1.1);
+}
+
+#yen {
+    transition-duration: 0.1s;
+}
+
+#yen:hover {
+    content: url(./img/gif/element5_gif.gif);
+    transform: scale(1.1);
+
+}
+
+#su {
+    transition-duration: 0.1s;
+}
+
+#su:hover {
+    content: url(./img/gif/element6_gif.gif);
+    transform: scale(1.1);
+
+}
+
+#lin {
+    transition-duration: 0.1s;
+}
+
+#lin:hover {
+    content: url(./img/gif/element7_gif.gif);
+    transform: scale(1.1);
+
+}
+
+
+#shun {
+    transition-duration: 0.1s;
+}
+
+#shun:hover {
+    content: url(./img/gif/element8_gif.gif);
+    transform: scale(1.1);
+
+}
+
+#hey {
+    transition-duration: 0.1s;
+}
+
+#hey:hover {
+    content: url(./img/gif/element9_gif.gif);
+    transform: scale(1.1);
+
 }
