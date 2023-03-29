@@ -21,6 +21,7 @@ body {
     background-color: #000000;
     margin: 0;
     height: auto;
+    overflow-x:hidden;
 }
 
 .firstBlock {
