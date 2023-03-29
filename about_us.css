@@ -1,0 +1,74 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    height: auto;
+}
+
+.firstBlock {
+    height: 3vh;
+}
+
+.secBlock {
+    height: 3.5vh;
+}
+
+.thirdBlock {
+    height: 5vh;
+}
+
+.fourBlock {
+    height: 3.8vh;
+}
+
+.fifBlock {
+    height: 2.7vh;
+}
+
+.sixBlock {
+    height: 1.6vh;
+}
+
+.sevBlock {
+    height: 5.8vh;
+}
+
+.eightBlock {
+    height: 6.4vh;
+}
+
+.container1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container1 div {
+    font-family: NotoSansCJKtc-DemiLight;
+    /* font-size: 24px; */
+    font-size: 1.3vw;
+}
+
+.text {
+    color: white;
+    text-align: center;
+}
+
+.selfIntro {
+    font-family: NotoSansCJKtc-Black;
+    font-size: 3.4vw;
+}
+
+.name {
+    font-family: NotoSansCJKtc-Medium;
+    font-size: 1.3vw;
+}
+
+.position {
+    font-family: NotoSansCJKtc-Medium;
+    font-size: 0.8vw;
+}
+
+.about {
+    font-family: NotoSansCJKtc-Thin;
+    font-size: 1.05vw;
+}
