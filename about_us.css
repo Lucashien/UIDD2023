@@ -1,3 +1,22 @@
+@font-face {
+    font-family: "Source Han Sans SC Black";
+    src: url(./fonts/NotoSansTC-Black.otf);
+}
+
+@font-face {
+    font-family: "Source Han Sans SC Thin";
+    src: url(./fonts/NotoSansTC-Thin.otf);
+}
+
+@font-face {
+    font-family: "Source Han Sans SC Medium";
+    src: url(./fonts/NotoSansTC-Medium.otf);
+}
+@font-face {
+    font-family: "Source Han Sans SC light";
+    src: url(./fonts/NotoSansTC-Light.otf);
+}
+
 body {
     background-color: #000000;
     margin: 0;
@@ -42,35 +61,39 @@ body {
 }
 
 .selfIntro {
-    font-family: NotoSansCJKtc-Black;
+    font-family: NotoSansTC-Black;
+    font-family: "Source Han Sans SC Black", sans-serif;
     font-size: 3.4vw;
 }
 
 .name {
-    font-family: NotoSansCJKtc-Medium;
+    font-family: NotoSansTC-Medium;
+    font-family: "Source Han Sans SC Medium", sans-serif;
     font-size: 1.3vw;
 }
 
 .position {
-    font-family: NotoSansCJKtc-Medium;
+    font-family: NotoSansTC-Medium;
+    font-family: "Source Han Sans SC Medium", sans-serif;
     font-size: 0.8vw;
 }
 
 .about {
-    font-family: NotoSansCJKtc-Thin;
+    font-family: NotoSansTC-Thin;
+    font-family: "Source Han Sans SC Thin", sans-serif;
     font-size: 1.05vw;
 }
 
 
 /*--*/
 
-nav{
-    height:2vw;
+nav {
+    height: 3vw;
 }
 
 ul {
     /* width: 40vw; */
-    height: 5vw;
+    height: 3vw;
     position: absolute;
     top: 12vw;
     /* top: 15px; */
@@ -99,7 +122,7 @@ ul a span {
     content: '';
     display: block;
     height: 2px;
-    width: 7.5vw;
+    width: 7vw;
     border-radius: 10px;
     background-color: aliceblue;
     margin-top: 2px;
