@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+    <meta charset="UTF-8">
+    <title>点击按钮实现多张图片的循环切换</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .img-wrapper {
+            width: 520px;
+            height: 520px;
+            background-size: contain;
+            overflow: hidden;
+            margin: 50px auto;
+            background-color: green;
+        }
+
+        .img-wrapper img {
+            width: 533px;
+            height: 300px;
+        }
+
+        .img-wrapper p {
+            text-align: center;
+            height: 20px;
+            line-height: 20px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            margin-top: 8px;
+        }
+
+        .img-wrapper button {
+            margin: 12px 93px;
+            font-size: 18px;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            let prev = document.getElementById("prev");
+            let next = document.getElementById("next");
+            let img = document.getElementsById("member")[0];
+            let info = document.getElementById("info");
+            let imgArr = ["img_about_us/elementsidepage3_photomedium1.png", "img_about_us/elementsidepage3_photomedium2.png", "img_about_us/elementsidepage3_photomedium3.png", "img_about_us/elementsidepage3_photomedium4.png", "img_about_us/elementsidepage3_photomedium5.png", "img_about_us/elementsidepage3_photomedium6.png"];
+            let index = 0;
+
+            prev.onclick = function () {
+                index--;
+                if (index < 0) { index = imgArr.length - 1; }
+                img.src = imgArr[index];
+            };
+
+            next.onclick = function () {
+                index++;
+                if (index > imgArr.length - 1) {index = 0;}
+                img.src = imgArr[index];
+            };
+        };
+    </script>
+</head>
+
+<body>
+    <div class="img-wrapper">
+        <p id="info"></p>
+        <img src="img_about_us/elementsidepage3_photomedium1.png">
+        <button id="prev">上一张</button>
+        <button id="next">下一张</button>
+    </div>
+</body>
+
+</html>

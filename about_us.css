@@ -12,6 +12,7 @@
     font-family: "Source Han Sans SC Medium";
     src: url(./fonts/NotoSansTC-Medium.otf);
 }
+
 @font-face {
     font-family: "Source Han Sans SC light";
     src: url(./fonts/NotoSansTC-Light.otf);
@@ -21,7 +22,7 @@ body {
     background-color: #000000;
     margin: 0;
     height: auto;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 .firstBlock {
@@ -152,4 +153,51 @@ ul a span {
 
 #首頁:hover::after, #資源區:hover::after, #PTT:hover::after {
     transform: scaleX(1);
+}
+
+/*photo box*/
+.photo_container {
+    padding: 0;
+    width: 100vw;
+    height: 55vh; 
+    margin: auto;
+    border: 100px solid black;
+}
+
+.list {
+    width:150vw;
+    text-align: center;
+    margin: 0;
+}
+
+.member {
+    width: 33vw;
+    height: 30vw;
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.member1 {
+    background-image: url(img_about_us/elementsidepage3_photomedium1.png);
+}
+
+.member2 {
+    background-image: url(img_about_us/elementsidepage3_photomedium2.png);
+}
+
+.member3 {
+    background-image: url(img_about_us/elementsidepage3_photomedium3.png);
+}
+
+.member4 {
+    background-image: url(img_about_us/elementsidepage3_photomedium4.png);
+}
+
+.member5 {
+    background-image: url(img_about_us/elementsidepage3_photomedium5.png);
+}
+
+.member6 {
+    background-image: url(img_about_us/elementsidepage3_photomedium6.png);
 }
