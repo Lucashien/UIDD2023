@@ -72,6 +72,8 @@ body {
     font-family: NotoSansTC-Medium;
     font-family: "Source Han Sans SC Medium", sans-serif;
     font-size: 1.3vw;
+    margin: 0px;
+    color: #30b3da;
 }
 
 .position {
@@ -85,6 +87,7 @@ body {
     font-family: "Source Han Sans SC Thin", sans-serif;
     font-size: 1.05vw;
 }
+
 
 
 /*--*/
@@ -159,13 +162,13 @@ ul a span {
 .photo_container {
     padding: 0;
     width: 100vw;
-    height: 55vh; 
+    height: 55vh;
     margin: auto;
     border: 100px solid black;
 }
 
 .list {
-    width:150vw;
+    width: 150vw;
     text-align: center;
     margin: 0;
 }
